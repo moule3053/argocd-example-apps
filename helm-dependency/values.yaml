@@ -1,5 +1,7 @@
 wordpress:
   wordpressPassword: foo
+  service:
+    type: NodePort
   mariadb:
     db:
       password: bar
