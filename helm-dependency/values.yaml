@@ -1,9 +1,3 @@
-wordpress:
-  wordpressPassword: foo
-  service:
-    type: NodePort
-  mariadb:
-    db:
-      password: bar
-    rootUser:
-      password: baz
+actions-runner-controller:
+  authSecret:
+    create: true
